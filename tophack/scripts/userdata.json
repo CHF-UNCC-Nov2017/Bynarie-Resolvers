@@ -1,0 +1,1246 @@
+[
+  {
+    "accounts": {
+      "account": [
+        {
+          "refreshinfo": {
+            "statusCode": 0,
+            "lastRefreshAttempt": "2017-11-04T19:22:49Z",
+            "lastRefreshed": "2017-11-04T19:22:49Z",
+            "nextRefreshScheduled": "2017-11-06T03:19:13Z",
+            "statusMessage": "OK"
+          },
+          "availableCash": {
+            "amount": 600,
+            "currency": "USD"
+          },
+          "CONTAINER": "creditCard",
+          "isManual": false,
+          "isAsset": false,
+          "lastUpdated": "2017-11-04T19:22:49Z",
+          "totalCashLimit": {
+            "amount": 600,
+            "currency": "USD"
+          },
+          "id": 10974807,
+          "balance": {
+            "amount": 1636.44,
+            "currency": "USD"
+          },
+          "accountName": "CREDIT CARD",
+          "accountNumber": "************8614",
+          "aggregationSource": "USER",
+          "providerName": "Dag Site",
+          "accountStatus": "ACTIVE",
+          "accountType": "OTHER",
+          "totalCreditLine": {
+            "amount": 3000,
+            "currency": "USD"
+          },
+          "providerId": "16441",
+          "includeInNetWorth": true,
+          "createdDate": "2017-11-04T19:22:49Z",
+          "providerAccountId": 10468179,
+          "availableCredit": {
+            "amount": 1363,
+            "currency": "USD"
+          }
+        },
+        {
+          "refreshinfo": {
+            "statusCode": 0,
+            "lastRefreshAttempt": "2017-11-04T19:22:49Z",
+            "lastRefreshed": "2017-11-04T19:22:49Z",
+            "nextRefreshScheduled": "2017-11-05T23:52:54Z",
+            "statusMessage": "OK"
+          },
+          "CONTAINER": "bank",
+          "isManual": false,
+          "isAsset": true,
+          "lastUpdated": "2017-11-04T19:22:49Z",
+          "currentBalance": {
+            "amount": 9044.78,
+            "currency": "USD"
+          },
+          "availableBalance": {
+            "amount": 65454.78,
+            "currency": "USD"
+          },
+          "id": 10974806,
+          "balance": {
+            "amount": 9044.78,
+            "currency": "USD"
+          },
+          "accountName": "TESTDATA1",
+          "accountNumber": "503-5623xxx",
+          "aggregationSource": "USER",
+          "providerName": "Dag Site",
+          "accountStatus": "ACTIVE",
+          "accountType": "SAVINGS",
+          "providerId": "16441",
+          "includeInNetWorth": true,
+          "holderProfile": [
+            {
+              "name": {
+                "displayed": "accountHolder"
+              }
+            }
+          ],
+          "createdDate": "2017-11-04T19:22:49Z",
+          "providerAccountId": 10468179
+        },
+        {
+          "refreshinfo": {
+            "statusCode": 0,
+            "lastRefreshAttempt": "2017-11-04T19:22:49Z",
+            "lastRefreshed": "2017-11-04T19:22:49Z",
+            "nextRefreshScheduled": "2017-11-05T23:52:54Z",
+            "statusMessage": "OK"
+          },
+          "CONTAINER": "bank",
+          "isManual": false,
+          "isAsset": true,
+          "lastUpdated": "2017-11-04T19:22:49Z",
+          "currentBalance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "availableBalance": {
+            "amount": 54.78,
+            "currency": "USD"
+          },
+          "id": 10974805,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "accountName": "TESTDATA",
+          "accountNumber": "503-1123xxx",
+          "aggregationSource": "USER",
+          "providerName": "Dag Site",
+          "accountStatus": "ACTIVE",
+          "accountType": "CHECKING",
+          "providerId": "16441",
+          "includeInNetWorth": true,
+          "holderProfile": [
+            {
+              "name": {
+                "displayed": "accountHolder"
+              }
+            }
+          ],
+          "createdDate": "2017-11-04T19:22:49Z",
+          "providerAccountId": 10468179
+        }
+      ]
+    },
+    "accounts/historicalBalances": {
+      "account": [
+        {
+          "id": 10974805,
+          "historicalBalances": [
+            {
+              "isAsset": true,
+              "date": "2017-11-04",
+              "asOfDate": "2017-11-04",
+              "balance": {
+                "amount": 44.78,
+                "currency": "USD"
+              },
+              "dataSourceType": "S"
+            }
+          ]
+        },
+        {
+          "id": 10974806,
+          "historicalBalances": [
+            {
+              "isAsset": true,
+              "date": "2017-11-04",
+              "asOfDate": "2017-11-04",
+              "balance": {
+                "amount": 9044.78,
+                "currency": "USD"
+              },
+              "dataSourceType": "S"
+            }
+          ]
+        },
+        {
+          "id": 10974807,
+          "historicalBalances": [
+            {
+              "isAsset": false,
+              "date": "2017-11-04",
+              "asOfDate": "2017-11-04",
+              "balance": {
+                "amount": 1636.44,
+                "currency": "USD"
+              },
+              "dataSourceType": "S"
+            }
+          ]
+        }
+      ]
+    },
+    "holdings": {},
+    "transactions": {},
+    "statements": {
+      "statement": [
+        {
+          "id": 10724330,
+          "accountId": 10974807,
+          "statementDate": "2014-01-17",
+          "dueDate": "2014-01-17",
+          "lastPaymentDate": "2013-12-16",
+          "lastUpdated": "2017-11-04T19:22:53Z",
+          "amountDue": {
+            "amount": 1657.99,
+            "currency": "USD"
+          },
+          "lastPaymentAmount": {
+            "amount": 250,
+            "currency": "USD"
+          },
+          "isLatest": true
+        }
+      ]
+    },
+    "derived/networth": {
+      "networth": [
+        {
+          "date": "2017-11-04",
+          "asset": {
+            "amount": 9089.56,
+            "currency": "USD"
+          },
+          "liability": {
+            "amount": 1636.44,
+            "currency": "USD"
+          },
+          "networth": {
+            "amount": 7453.12,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2017-11-05",
+          "asset": {
+            "amount": 9089.56,
+            "currency": "USD"
+          },
+          "liability": {
+            "amount": 1636.44,
+            "currency": "USD"
+          },
+          "networth": {
+            "amount": 7453.12,
+            "currency": "USD"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "accounts": {
+      "account": [
+        {
+          "refreshinfo": {
+            "statusCode": 0,
+            "lastRefreshAttempt": "2017-11-04T19:23:00Z",
+            "lastRefreshed": "2017-11-04T19:23:00Z",
+            "nextRefreshScheduled": "2017-11-05T21:51:22Z",
+            "statusMessage": "OK"
+          },
+          "availableCash": {
+            "amount": 600,
+            "currency": "USD"
+          },
+          "CONTAINER": "creditCard",
+          "isManual": false,
+          "isAsset": false,
+          "lastUpdated": "2017-11-04T19:23:00Z",
+          "totalCashLimit": {
+            "amount": 600,
+            "currency": "USD"
+          },
+          "id": 10974790,
+          "balance": {
+            "amount": 1636.44,
+            "currency": "USD"
+          },
+          "accountName": "CREDIT CARD",
+          "accountNumber": "************8614",
+          "aggregationSource": "USER",
+          "providerName": "Dag Site",
+          "accountStatus": "ACTIVE",
+          "accountType": "OTHER",
+          "totalCreditLine": {
+            "amount": 3000,
+            "currency": "USD"
+          },
+          "providerId": "16441",
+          "includeInNetWorth": true,
+          "createdDate": "2017-11-04T19:22:51Z",
+          "providerAccountId": 10468180,
+          "availableCredit": {
+            "amount": 1363,
+            "currency": "USD"
+          }
+        },
+        {
+          "refreshinfo": {
+            "statusCode": 0,
+            "lastRefreshAttempt": "2017-11-04T19:22:54Z",
+            "lastRefreshed": "2017-11-04T19:22:54Z",
+            "nextRefreshScheduled": "2017-11-06T05:47:20Z",
+            "statusMessage": "OK"
+          },
+          "CONTAINER": "bank",
+          "isManual": false,
+          "isAsset": true,
+          "lastUpdated": "2017-11-04T19:22:54Z",
+          "currentBalance": {
+            "amount": 9044.78,
+            "currency": "USD"
+          },
+          "availableBalance": {
+            "amount": 65454.78,
+            "currency": "USD"
+          },
+          "id": 10974789,
+          "balance": {
+            "amount": 9044.78,
+            "currency": "USD"
+          },
+          "accountName": "TESTDATA1",
+          "accountNumber": "503-5623xxx",
+          "aggregationSource": "USER",
+          "providerName": "Dag Site",
+          "accountStatus": "ACTIVE",
+          "accountType": "SAVINGS",
+          "providerId": "16441",
+          "includeInNetWorth": true,
+          "holderProfile": [
+            {
+              "name": {
+                "displayed": "accountHolder"
+              }
+            }
+          ],
+          "createdDate": "2017-11-04T19:22:50Z",
+          "providerAccountId": 10468180
+        },
+        {
+          "refreshinfo": {
+            "statusCode": 0,
+            "lastRefreshAttempt": "2017-11-04T19:22:54Z",
+            "lastRefreshed": "2017-11-04T19:22:54Z",
+            "nextRefreshScheduled": "2017-11-06T05:47:20Z",
+            "statusMessage": "OK"
+          },
+          "CONTAINER": "bank",
+          "isManual": false,
+          "isAsset": true,
+          "lastUpdated": "2017-11-04T19:22:54Z",
+          "currentBalance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "availableBalance": {
+            "amount": 54.78,
+            "currency": "USD"
+          },
+          "id": 10974788,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "accountName": "TESTDATA",
+          "accountNumber": "503-1123xxx",
+          "aggregationSource": "USER",
+          "providerName": "Dag Site",
+          "accountStatus": "ACTIVE",
+          "accountType": "CHECKING",
+          "providerId": "16441",
+          "includeInNetWorth": true,
+          "holderProfile": [
+            {
+              "name": {
+                "displayed": "accountHolder"
+              }
+            }
+          ],
+          "createdDate": "2017-11-04T19:22:50Z",
+          "providerAccountId": 10468180
+        }
+      ]
+    },
+    "accounts/historicalBalances": {
+      "account": [
+        {
+          "id": 10974790,
+          "historicalBalances": [
+            {
+              "isAsset": false,
+              "date": "2017-11-04",
+              "asOfDate": "2017-11-04",
+              "balance": {
+                "amount": 1636.44,
+                "currency": "USD"
+              },
+              "dataSourceType": "S"
+            }
+          ]
+        },
+        {
+          "id": 10974788,
+          "historicalBalances": [
+            {
+              "isAsset": true,
+              "date": "2017-11-04",
+              "asOfDate": "2017-11-04",
+              "balance": {
+                "amount": 44.78,
+                "currency": "USD"
+              },
+              "dataSourceType": "S"
+            }
+          ]
+        },
+        {
+          "id": 10974789,
+          "historicalBalances": [
+            {
+              "isAsset": true,
+              "date": "2017-11-04",
+              "asOfDate": "2017-11-04",
+              "balance": {
+                "amount": 9044.78,
+                "currency": "USD"
+              },
+              "dataSourceType": "S"
+            }
+          ]
+        }
+      ]
+    },
+    "holdings": {},
+    "transactions": {},
+    "statements": {
+      "statement": [
+        {
+          "id": 10724332,
+          "accountId": 10974790,
+          "statementDate": "2014-01-17",
+          "dueDate": "2014-01-17",
+          "lastPaymentDate": "2013-12-16",
+          "lastUpdated": "2017-11-04T19:23:04Z",
+          "amountDue": {
+            "amount": 1657.99,
+            "currency": "USD"
+          },
+          "lastPaymentAmount": {
+            "amount": 250,
+            "currency": "USD"
+          },
+          "isLatest": true
+        }
+      ]
+    },
+    "derived/networth": {
+      "networth": [
+        {
+          "date": "2017-11-04",
+          "asset": {
+            "amount": 9089.56,
+            "currency": "USD"
+          },
+          "liability": {
+            "amount": 1636.44,
+            "currency": "USD"
+          },
+          "networth": {
+            "amount": 7453.12,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2017-11-05",
+          "asset": {
+            "amount": 9089.56,
+            "currency": "USD"
+          },
+          "liability": {
+            "amount": 1636.44,
+            "currency": "USD"
+          },
+          "networth": {
+            "amount": 7453.12,
+            "currency": "USD"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "accounts": {
+      "account": [
+        {
+          "refreshinfo": {
+            "statusCode": 0,
+            "lastRefreshAttempt": "2017-11-04T19:22:52Z",
+            "lastRefreshed": "2017-11-04T19:22:52Z",
+            "nextRefreshScheduled": "2017-11-05T21:53:35Z",
+            "statusMessage": "OK"
+          },
+          "CONTAINER": "bank",
+          "isManual": false,
+          "isAsset": true,
+          "lastUpdated": "2017-11-04T19:22:52Z",
+          "currentBalance": {
+            "amount": 9044.78,
+            "currency": "USD"
+          },
+          "availableBalance": {
+            "amount": 65454.78,
+            "currency": "USD"
+          },
+          "id": 10974792,
+          "balance": {
+            "amount": 9044.78,
+            "currency": "USD"
+          },
+          "accountName": "TESTDATA1",
+          "accountNumber": "503-5623xxx",
+          "aggregationSource": "USER",
+          "providerName": "Dag Site",
+          "accountStatus": "ACTIVE",
+          "accountType": "SAVINGS",
+          "providerId": "16441",
+          "includeInNetWorth": true,
+          "holderProfile": [
+            {
+              "name": {
+                "displayed": "accountHolder"
+              }
+            }
+          ],
+          "createdDate": "2017-11-04T19:22:51Z",
+          "providerAccountId": 10468181
+        },
+        {
+          "refreshinfo": {
+            "statusCode": 0,
+            "lastRefreshAttempt": "2017-11-04T19:22:52Z",
+            "lastRefreshed": "2017-11-04T19:22:52Z",
+            "nextRefreshScheduled": "2017-11-05T21:53:35Z",
+            "statusMessage": "OK"
+          },
+          "CONTAINER": "bank",
+          "isManual": false,
+          "isAsset": true,
+          "lastUpdated": "2017-11-04T19:22:52Z",
+          "currentBalance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "availableBalance": {
+            "amount": 54.78,
+            "currency": "USD"
+          },
+          "id": 10974791,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "accountName": "TESTDATA",
+          "accountNumber": "503-1123xxx",
+          "aggregationSource": "USER",
+          "providerName": "Dag Site",
+          "accountStatus": "ACTIVE",
+          "accountType": "CHECKING",
+          "providerId": "16441",
+          "includeInNetWorth": true,
+          "holderProfile": [
+            {
+              "name": {
+                "displayed": "accountHolder"
+              }
+            }
+          ],
+          "createdDate": "2017-11-04T19:22:51Z",
+          "providerAccountId": 10468181
+        },
+        {
+          "refreshinfo": {
+            "statusCode": 0,
+            "lastRefreshAttempt": "2017-11-04T19:22:50Z",
+            "lastRefreshed": "2017-11-04T19:22:50Z",
+            "nextRefreshScheduled": "2017-11-05T20:00:42Z",
+            "statusMessage": "OK"
+          },
+          "CONTAINER": "creditCard",
+          "isManual": false,
+          "isAsset": false,
+          "lastUpdated": "2017-11-04T19:22:51Z",
+          "id": 10974787,
+          "balance": {
+            "amount": 1636.44,
+            "currency": "USD"
+          },
+          "accountName": "CREDIT CARD",
+          "accountNumber": "************8614",
+          "aggregationSource": "USER",
+          "providerName": "Dag Site",
+          "accountStatus": "ACTIVE",
+          "accountType": "OTHER",
+          "providerId": "16441",
+          "includeInNetWorth": true,
+          "createdDate": "2017-11-04T19:22:50Z",
+          "providerAccountId": 10468181,
+          "availableCredit": {
+            "amount": 1363,
+            "currency": "USD"
+          }
+        }
+      ]
+    },
+    "accounts/historicalBalances": {
+      "account": [
+        {
+          "id": 10974792,
+          "historicalBalances": [
+            {
+              "isAsset": true,
+              "date": "2017-11-04",
+              "asOfDate": "2017-11-04",
+              "balance": {
+                "amount": 9044.78,
+                "currency": "USD"
+              },
+              "dataSourceType": "S"
+            }
+          ]
+        },
+        {
+          "id": 10974787,
+          "historicalBalances": [
+            {
+              "isAsset": false,
+              "date": "2017-11-04",
+              "asOfDate": "2017-11-04",
+              "balance": {
+                "amount": 1636.44,
+                "currency": "USD"
+              },
+              "dataSourceType": "S"
+            }
+          ]
+        },
+        {
+          "id": 10974791,
+          "historicalBalances": [
+            {
+              "isAsset": true,
+              "date": "2017-11-04",
+              "asOfDate": "2017-11-04",
+              "balance": {
+                "amount": 44.78,
+                "currency": "USD"
+              },
+              "dataSourceType": "S"
+            }
+          ]
+        }
+      ]
+    },
+    "holdings": {},
+    "transactions": {},
+    "statements": {
+      "statement": [
+        {
+          "id": 10724331,
+          "accountId": 10974787,
+          "statementDate": "2014-01-17",
+          "dueDate": "2014-01-17",
+          "lastPaymentDate": "2013-12-16",
+          "lastUpdated": "2017-11-04T19:22:55Z",
+          "amountDue": {
+            "amount": 1657.99,
+            "currency": "USD"
+          },
+          "lastPaymentAmount": {
+            "amount": 250,
+            "currency": "USD"
+          },
+          "isLatest": true
+        }
+      ]
+    },
+    "derived/networth": {
+      "networth": [
+        {
+          "date": "2017-11-04",
+          "asset": {
+            "amount": 9089.56,
+            "currency": "USD"
+          },
+          "liability": {
+            "amount": 1636.44,
+            "currency": "USD"
+          },
+          "networth": {
+            "amount": 7453.12,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2017-11-05",
+          "asset": {
+            "amount": 9089.56,
+            "currency": "USD"
+          },
+          "liability": {
+            "amount": 1636.44,
+            "currency": "USD"
+          },
+          "networth": {
+            "amount": 7453.12,
+            "currency": "USD"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "accounts": {
+      "account": [
+        {
+          "refreshinfo": {
+            "statusCode": 0,
+            "lastRefreshAttempt": "2017-11-04T19:22:48Z",
+            "lastRefreshed": "2017-11-04T19:22:48Z",
+            "nextRefreshScheduled": "2017-11-06T00:33:40Z",
+            "statusMessage": "OK"
+          },
+          "availableCash": {
+            "amount": 600,
+            "currency": "USD"
+          },
+          "CONTAINER": "creditCard",
+          "isManual": false,
+          "isAsset": false,
+          "lastUpdated": "2017-11-04T19:22:48Z",
+          "totalCashLimit": {
+            "amount": 600,
+            "currency": "USD"
+          },
+          "id": 10974786,
+          "balance": {
+            "amount": 1636.44,
+            "currency": "USD"
+          },
+          "accountName": "CREDIT CARD",
+          "accountNumber": "************8614",
+          "aggregationSource": "USER",
+          "providerName": "Dag Site",
+          "accountStatus": "ACTIVE",
+          "accountType": "OTHER",
+          "totalCreditLine": {
+            "amount": 3000,
+            "currency": "USD"
+          },
+          "providerId": "16441",
+          "includeInNetWorth": true,
+          "createdDate": "2017-11-04T19:22:48Z",
+          "providerAccountId": 10468182,
+          "availableCredit": {
+            "amount": 1363,
+            "currency": "USD"
+          }
+        },
+        {
+          "refreshinfo": {
+            "statusCode": 0,
+            "lastRefreshAttempt": "2017-11-04T19:22:48Z",
+            "lastRefreshed": "2017-11-04T19:22:48Z",
+            "nextRefreshScheduled": "2017-11-05T22:24:16Z",
+            "statusMessage": "OK"
+          },
+          "CONTAINER": "bank",
+          "isManual": false,
+          "isAsset": true,
+          "lastUpdated": "2017-11-04T19:22:48Z",
+          "currentBalance": {
+            "amount": 9044.78,
+            "currency": "USD"
+          },
+          "availableBalance": {
+            "amount": 65454.78,
+            "currency": "USD"
+          },
+          "id": 10974785,
+          "balance": {
+            "amount": 9044.78,
+            "currency": "USD"
+          },
+          "accountName": "TESTDATA1",
+          "accountNumber": "503-5623xxx",
+          "aggregationSource": "USER",
+          "providerName": "Dag Site",
+          "accountStatus": "ACTIVE",
+          "accountType": "SAVINGS",
+          "providerId": "16441",
+          "includeInNetWorth": true,
+          "holderProfile": [
+            {
+              "name": {
+                "displayed": "accountHolder"
+              }
+            }
+          ],
+          "createdDate": "2017-11-04T19:22:48Z",
+          "providerAccountId": 10468182
+        },
+        {
+          "refreshinfo": {
+            "statusCode": 0,
+            "lastRefreshAttempt": "2017-11-04T19:22:48Z",
+            "lastRefreshed": "2017-11-04T19:22:48Z",
+            "nextRefreshScheduled": "2017-11-05T22:24:16Z",
+            "statusMessage": "OK"
+          },
+          "CONTAINER": "bank",
+          "isManual": false,
+          "isAsset": true,
+          "lastUpdated": "2017-11-04T19:22:48Z",
+          "currentBalance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "availableBalance": {
+            "amount": 54.78,
+            "currency": "USD"
+          },
+          "id": 10974784,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "accountName": "TESTDATA",
+          "accountNumber": "503-1123xxx",
+          "aggregationSource": "USER",
+          "providerName": "Dag Site",
+          "accountStatus": "ACTIVE",
+          "accountType": "CHECKING",
+          "providerId": "16441",
+          "includeInNetWorth": true,
+          "holderProfile": [
+            {
+              "name": {
+                "displayed": "accountHolder"
+              }
+            }
+          ],
+          "createdDate": "2017-11-04T19:22:48Z",
+          "providerAccountId": 10468182
+        }
+      ]
+    },
+    "accounts/historicalBalances": {
+      "account": [
+        {
+          "id": 10974786,
+          "historicalBalances": [
+            {
+              "isAsset": false,
+              "date": "2017-11-04",
+              "asOfDate": "2017-11-04",
+              "balance": {
+                "amount": 1636.44,
+                "currency": "USD"
+              },
+              "dataSourceType": "S"
+            }
+          ]
+        },
+        {
+          "id": 10974785,
+          "historicalBalances": [
+            {
+              "isAsset": true,
+              "date": "2017-11-04",
+              "asOfDate": "2017-11-04",
+              "balance": {
+                "amount": 9044.78,
+                "currency": "USD"
+              },
+              "dataSourceType": "S"
+            }
+          ]
+        },
+        {
+          "id": 10974784,
+          "historicalBalances": [
+            {
+              "isAsset": true,
+              "date": "2017-11-04",
+              "asOfDate": "2017-11-04",
+              "balance": {
+                "amount": 44.78,
+                "currency": "USD"
+              },
+              "dataSourceType": "S"
+            }
+          ]
+        }
+      ]
+    },
+    "holdings": {},
+    "transactions": {},
+    "statements": {
+      "statement": [
+        {
+          "id": 10724333,
+          "accountId": 10974786,
+          "statementDate": "2014-01-17",
+          "dueDate": "2014-01-17",
+          "lastPaymentDate": "2013-12-16",
+          "lastUpdated": "2017-11-04T19:23:12Z",
+          "amountDue": {
+            "amount": 1657.99,
+            "currency": "USD"
+          },
+          "lastPaymentAmount": {
+            "amount": 250,
+            "currency": "USD"
+          },
+          "isLatest": true
+        }
+      ]
+    },
+    "derived/networth": {
+      "networth": [
+        {
+          "date": "2017-11-04",
+          "asset": {
+            "amount": 9089.56,
+            "currency": "USD"
+          },
+          "liability": {
+            "amount": 1636.44,
+            "currency": "USD"
+          },
+          "networth": {
+            "amount": 7453.12,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2017-11-05",
+          "asset": {
+            "amount": 9089.56,
+            "currency": "USD"
+          },
+          "liability": {
+            "amount": 1636.44,
+            "currency": "USD"
+          },
+          "networth": {
+            "amount": 7453.12,
+            "currency": "USD"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "accounts": {
+      "account": [
+        {
+          "refreshinfo": {
+            "statusCode": 0,
+            "lastRefreshAttempt": "2017-11-04T19:22:50Z",
+            "lastRefreshed": "2017-11-04T19:22:50Z",
+            "nextRefreshScheduled": "2017-11-06T10:18:46Z",
+            "statusMessage": "OK"
+          },
+          "CONTAINER": "bank",
+          "isManual": false,
+          "isAsset": true,
+          "lastUpdated": "2017-11-04T19:22:50Z",
+          "currentBalance": {
+            "amount": 9044.78,
+            "currency": "USD"
+          },
+          "availableBalance": {
+            "amount": 65454.78,
+            "currency": "USD"
+          },
+          "id": 10974811,
+          "balance": {
+            "amount": 9044.78,
+            "currency": "USD"
+          },
+          "accountName": "TESTDATA1",
+          "accountNumber": "503-5623xxx",
+          "aggregationSource": "USER",
+          "providerName": "Dag Site",
+          "accountStatus": "ACTIVE",
+          "accountType": "SAVINGS",
+          "providerId": "16441",
+          "includeInNetWorth": true,
+          "holderProfile": [
+            {
+              "name": {
+                "displayed": "accountHolder"
+              }
+            }
+          ],
+          "createdDate": "2017-11-04T19:22:55Z",
+          "providerAccountId": 10468183
+        },
+        {
+          "refreshinfo": {
+            "statusCode": 0,
+            "lastRefreshAttempt": "2017-11-04T19:22:50Z",
+            "lastRefreshed": "2017-11-04T19:22:50Z",
+            "nextRefreshScheduled": "2017-11-06T10:18:46Z",
+            "statusMessage": "OK"
+          },
+          "CONTAINER": "bank",
+          "isManual": false,
+          "isAsset": true,
+          "lastUpdated": "2017-11-04T19:22:53Z",
+          "currentBalance": {
+            "amount": 9044.78,
+            "currency": "USD"
+          },
+          "availableBalance": {
+            "amount": 65454.78,
+            "currency": "USD"
+          },
+          "id": 10974810,
+          "balance": {
+            "amount": 9044.78,
+            "currency": "USD"
+          },
+          "accountName": "TESTDATA1",
+          "accountNumber": "503-5623xxx",
+          "aggregationSource": "USER",
+          "providerName": "Dag Site",
+          "accountStatus": "ACTIVE",
+          "accountType": "SAVINGS",
+          "providerId": "16441",
+          "includeInNetWorth": true,
+          "holderProfile": [
+            {
+              "name": {
+                "displayed": "accountHolder"
+              }
+            }
+          ],
+          "createdDate": "2017-11-04T19:22:53Z",
+          "providerAccountId": 10468183
+        },
+        {
+          "refreshinfo": {
+            "statusCode": 0,
+            "lastRefreshAttempt": "2017-11-04T19:22:50Z",
+            "lastRefreshed": "2017-11-04T19:22:50Z",
+            "nextRefreshScheduled": "2017-11-06T07:32:33Z",
+            "statusMessage": "OK"
+          },
+          "CONTAINER": "creditCard",
+          "isManual": false,
+          "isAsset": false,
+          "lastUpdated": "2017-11-04T19:22:53Z",
+          "id": 10974809,
+          "balance": {
+            "amount": 1636.44,
+            "currency": "USD"
+          },
+          "accountName": "CREDIT CARD",
+          "accountNumber": "************8614",
+          "aggregationSource": "USER",
+          "providerName": "Dag Site",
+          "accountStatus": "ACTIVE",
+          "accountType": "OTHER",
+          "providerId": "16441",
+          "includeInNetWorth": true,
+          "createdDate": "2017-11-04T19:22:50Z",
+          "providerAccountId": 10468183,
+          "availableCredit": {
+            "amount": 1363,
+            "currency": "USD"
+          }
+        },
+        {
+          "refreshinfo": {
+            "statusCode": 0,
+            "lastRefreshAttempt": "2017-11-04T19:22:50Z",
+            "lastRefreshed": "2017-11-04T19:22:50Z",
+            "nextRefreshScheduled": "2017-11-06T10:18:46Z",
+            "statusMessage": "OK"
+          },
+          "CONTAINER": "bank",
+          "isManual": false,
+          "isAsset": true,
+          "lastUpdated": "2017-11-04T19:22:53Z",
+          "currentBalance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "availableBalance": {
+            "amount": 54.78,
+            "currency": "USD"
+          },
+          "id": 10974808,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "accountName": "TESTDATA",
+          "accountNumber": "503-1123xxx",
+          "aggregationSource": "USER",
+          "providerName": "Dag Site",
+          "accountStatus": "ACTIVE",
+          "accountType": "CHECKING",
+          "providerId": "16441",
+          "includeInNetWorth": true,
+          "holderProfile": [
+            {
+              "name": {
+                "displayed": "accountHolder"
+              }
+            }
+          ],
+          "createdDate": "2017-11-04T19:22:50Z",
+          "providerAccountId": 10468183
+        }
+      ]
+    },
+    "accounts/historicalBalances": {
+      "account": [
+        {
+          "id": 10974810,
+          "historicalBalances": [
+            {
+              "isAsset": true,
+              "date": "2017-11-04",
+              "asOfDate": "2017-11-04",
+              "balance": {
+                "amount": 9044.78,
+                "currency": "USD"
+              },
+              "dataSourceType": "S"
+            }
+          ]
+        },
+        {
+          "id": 10974811,
+          "historicalBalances": [
+            {
+              "isAsset": true,
+              "date": "2017-11-04",
+              "asOfDate": "2017-11-04",
+              "balance": {
+                "amount": 9044.78,
+                "currency": "USD"
+              },
+              "dataSourceType": "S"
+            }
+          ]
+        },
+        {
+          "id": 10974809,
+          "historicalBalances": [
+            {
+              "isAsset": false,
+              "date": "2017-11-04",
+              "asOfDate": "2017-11-04",
+              "balance": {
+                "amount": 1636.44,
+                "currency": "USD"
+              },
+              "dataSourceType": "S"
+            }
+          ]
+        },
+        {
+          "id": 10974808,
+          "historicalBalances": [
+            {
+              "isAsset": true,
+              "date": "2017-11-04",
+              "asOfDate": "2017-11-04",
+              "balance": {
+                "amount": 44.78,
+                "currency": "USD"
+              },
+              "dataSourceType": "S"
+            }
+          ]
+        }
+      ]
+    },
+    "holdings": {},
+    "transactions": {},
+    "statements": {
+      "statement": [
+        {
+          "id": 10724284,
+          "accountId": 10974809,
+          "statementDate": "2014-01-17",
+          "dueDate": "2014-01-17",
+          "lastPaymentDate": "2013-12-16",
+          "lastUpdated": "2017-11-04T19:22:55Z",
+          "amountDue": {
+            "amount": 1657.99,
+            "currency": "USD"
+          },
+          "lastPaymentAmount": {
+            "amount": 250,
+            "currency": "USD"
+          },
+          "isLatest": true
+        }
+      ]
+    },
+    "derived/networth": {
+      "networth": [
+        {
+          "date": "2017-11-04",
+          "asset": {
+            "amount": 18134.34,
+            "currency": "USD"
+          },
+          "liability": {
+            "amount": 1636.44,
+            "currency": "USD"
+          },
+          "networth": {
+            "amount": 16497.9,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2017-11-05",
+          "asset": {
+            "amount": 18134.34,
+            "currency": "USD"
+          },
+          "liability": {
+            "amount": 1636.44,
+            "currency": "USD"
+          },
+          "networth": {
+            "amount": 16497.9,
+            "currency": "USD"
+          }
+        }
+      ]
+    }
+  }
+]

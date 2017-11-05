@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Superuser Dashboard</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <h1>Superuser Dashboard
+                <small>{{ user.username }}</small>
+            </h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <h3>{{ user.first_name }} {{ user.last_name }}</h3>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            {% for user in users_data %}
+                <div class="panel panel-default">
+                <div class="panel-heading"><h3>Raw user data:</h3></div>
+                    {% for cat, dat in user.data.items %}
+                        <div class="panel-body">
+                            <h4>{{ cat }}</h4>
+                            {{ dat }}
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <a class="btn btn-danger" href="{% url 'logout' %}">Logout</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

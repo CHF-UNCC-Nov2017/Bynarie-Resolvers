@@ -1,0 +1,60 @@
+UserID,AccountNumber,Age,AccountProvider,,Description,AmountOfTransaction,Date,Count of User,Consumer type
+318-90-477,6706-3543-4403-9230,28,BB&T,,Clothing,$574.87 ,1/3/2013,9,Loyal Consumer
+318-90-477,6706-3543-4403-9231,28,BB&T,,Fitness,$940.86 ,9/15/2013,9,Loyal Consumer
+318-90-477,6706-3543-4403-9232,28,Wells_Fargo,,Dinning,$229.72 ,10/24/2013,9,Loyal Consumer
+318-90-477,6706-3543-4403-9233,28,Bank_of_America,,Jewelry,$391.31 ,7/19/2013,9,Loyal Consumer
+318-90-477,3589-4094-0919-9441,28,Chase,,Dinning,$459.41 ,3/12/2013,9,Loyal Consumer
+318-90-477,3610-5881-0936-24,28,Amex,,Dinning,$284.26 ,10/9/2013,9,Loyal Consumer
+318-90-478,5020-9559-1968-5131,43,Ally_Bank,,Jewelry,$152.80 ,4/4/2013,4,Discount Based Consumer
+318-90-478,6771-0847-9114-4809,43,Chase,,Jewelry,$417.04 ,12/27/2013,4,Discount Based Consumer
+318-90-478,3602-3578-7919-64,43,PNC,,Dinning,$169.05 ,3/27/2013,4,Discount Based Consumer
+318-90-478,3798-9263-0565-755,43,Chase,,Dinning,$96.47 ,7/21/2013,4,Discount Based Consumer
+318-90-477,6706-3543-4403-9230,26,PNC,,Groceries,$261.71 ,6/10/2013,9,Loyal Consumer
+318-90-477,5893-0029-0554-4594,24,Bank_of_America,,Dinning,$315.77 ,12/10/2013,9,Loyal Consumer
+690-11-230,5465-5944-3409-0451,22,Bank_of_America,,Jewelry,$612.80 ,9/3/2013,9,Loyal Consumer
+690-11-230,3600-3301-4148-03,22,Chase,,Clothing,$699.70 ,5/14/2013,9,Loyal Consumer
+690-11-230,3589-4094-0919-9441,22,Bank_of_America,,Groceries,$498.36 ,1/31/2013,9,Loyal Consumer
+690-11-230,3610-5881-0936-24,22,Chase,,Jewelry,$336.53 ,7/13/2013,9,Loyal Consumer
+690-11-230,5020-9559-1968-5131,22,Ally_Bank,,Gas,$318.14 ,12/14/2013,9,Loyal Consumer
+690-11-230,6771-0847-9114-4809,22,Wells_Fargo,,Dinning,$208.63 ,3/9/2013,9,Loyal Consumer
+690-11-230,3602-3578-7919-64,22,Bank_of_America,,Clothing,$601.63 ,10/9/2013,9,Loyal Consumer
+690-11-230,3798-9263-0565-755,22,Wells_Fargo,,Fitness,$153.85 ,5/3/2013,9,Loyal Consumer
+318-90-477,6706-3543-4403-9232,30,Chase,,Groceries,$870.77 ,5/9/2013,9,Loyal Consumer
+580-77-019,5893-0029-0554-4596,23,Chase,,Groceries,$614.54 ,9/7/2013,1,Need Based Consumer
+527-50-768,5465-5944-3409-0453,47,Chase,,Gas,$707.71 ,1/10/2013,1,Need Based Consumer
+279-52-244,3600-3301-4148-05,22,Bank_of_America,,Groceries,$52.85 ,4/29/2013,1,Need Based Consumer
+090-48-281,3589-4094-0919-9443,26,Bank_of_America,,Clothing,$588.58 ,1/4/2013,1,Need Based Consumer
+523-77-343,3610-5881-0936-26,41,BB&T,,Groceries,$775.96 ,1/23/2013,1,Need Based Consumer
+098-28-653,5020-9559-1968-5133,31,Bank_of_America,,Clothing,$54.49 ,11/9/2013,1,Need Based Consumer
+492-09-333,6771-0847-9114-4811,23,Chase,,Fitness,$287.45 ,8/20/2013,1,Need Based Consumer
+397-10-940,3602-3578-7919-66,31,Ally_Bank,,Clothing,$423.23 ,6/14/2013,1,Need Based Consumer
+074-88-337,3798-9263-0565-757,45,Wells_Fargo,,Gas,$568.13 ,6/24/2013,1,Need Based Consumer
+053-62-096,6706-3543-4403-9233,28,Bank_of_America,,Gas,$383.21 ,7/13/2013,1,Need Based Consumer
+404-35-112,5893-0029-0554-4597,46,PNC,,Groceries,$300.71 ,9/9/2013,1,Need Based Consumer
+690-11-230,5465-5944-3409-0454,40,Ally_Bank,,Dinning,$488.69 ,12/1/2013,9,Loyal Consumer
+651-10-302,3600-3301-4148-06,30,PNC,,Fitness,$819.77 ,3/25/2013,1,Need Based Consumer
+551-29-312,3589-4094-0919-9444,43,BB&T,,Gas,$526.82 ,2/26/2013,1,Need Based Consumer
+839-15-362,3610-5881-0936-27,24,Chase,,Clothing,$972.89 ,9/30/2013,1,Need Based Consumer
+580-08-948,5020-9559-1968-5134,45,PNC,,Groceries,$222.97 ,8/2/2013,1,Need Based Consumer
+509-14-512,6771-0847-9114-4812,40,PNC,,Gas,$517.26 ,8/6/2013,1,Need Based Consumer
+172-27-721,3602-3578-7919-67,23,PNC,,Gas,$300.04 ,8/10/2013,1,Need Based Consumer
+850-59-522,3798-9263-0565-758,26,Ally_Bank,,Fitness,$583.68 ,9/24/2013,1,Need Based Consumer
+873-93-658,6706-3543-4403-9234,30,Wells_Fargo,,Fitness,$127.37 ,5/10/2013,1,Need Based Consumer
+346-45-924,6706-3543-4403-9230,26,PNC,,Gas,$148.23 ,10/13/2013,1,Need Based Consumer
+605-16-174,5893-0029-0554-4594,23,Bank_of_America,,Clothing,$275.95 ,5/19/2013,1,Need Based Consumer
+700-51-353,5465-5944-3409-0451,21,Bank_of_America,,Fitness,$689.71 ,2/1/2013,3,Discount Based Consumer
+700-51-353,3600-3301-4148-03,21,Bank_of_America,,Dinning,$234.27 ,11/14/2013,3,Discount Based Consumer
+700-51-353,3589-4094-0919-9441,21,Bank_of_America,,Clothing,$7.33 ,3/8/2013,3,Discount Based Consumer
+004-31-411,3610-5881-0936-24,41,Bank_of_America,,Dinning,$237.85 ,7/1/2013,3,Discount Based Consumer
+004-31-411,5020-9559-1968-5131,41,PNC,,Jewelry,$727.18 ,7/22/2013,3,Discount Based Consumer
+004-31-411,6771-0847-9114-4809,41,BB&T,,Dinning,$929.50 ,11/21/2013,3,Discount Based Consumer
+117-01-318,3602-3578-7919-64,40,Chase,,Clothing,$730.26 ,2/4/2013,4,Discount Based Consumer
+117-01-318,3798-9263-0565-755,40,BB&T,,Gas,$94.63 ,4/19/2013,4,Discount Based Consumer
+117-01-318,6706-3543-4403-9230,40,Bank_of_America,,Dinning,$711.37 ,5/14/2013,4,Discount Based Consumer
+117-01-318,5893-0029-0554-4594,40,Ally_Bank,,Clothing,$533.17 ,10/16/2013,4,Discount Based Consumer
+659-98-006,5465-5944-3409-0451,30,Wells_Fargo,,Gas,$328.56 ,4/14/2013,6,Impulsive Consumer
+659-98-006,3600-3301-4148-03,30,Wells_Fargo,,Jewelry,$836.74 ,3/29/2013,6,Impulsive Consumer
+659-98-006,3589-4094-0919-9441,30,PNC,,Fitness,$69.97 ,1/25/2013,6,Impulsive Consumer
+659-98-006,3610-5881-0936-24,30,Chase,,Clothing,$74.44 ,5/16/2013,6,Impulsive Consumer
+659-98-006,5020-9559-1968-5131,30,PNC,,Groceries,$503.37 ,3/1/2013,6,Impulsive Consumer
+659-98-006,6771-0847-9114-4809,30,PNC,,Jewelry,$675.49 ,6/30/2013,6,Impulsive Consumer

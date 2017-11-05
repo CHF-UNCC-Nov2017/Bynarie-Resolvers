@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User information</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <h1>Dashboard
+                <small>{{ user.username }}</small>
+            </h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <h3>{{ user.first_name }} {{ user.last_name }}</h3>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <form action="{% url 'mockup:dash' %}" method="post">
+                {% csrf_token %}
+                <input type="hidden" name="option">
+                <div class="btn-group" data-toggle="buttons">
+                    {% for option in all_options %}
+                        {% if option in selected_options %}
+                            <label class="btn btn-primary active">
+                                <input type="checkbox" checked autocomplete="off" name="{{ option }}">{{ option|title }}
+                            </label>
+                        {% else %}
+                            <label class="btn btn-primary">
+                                <input type="checkbox" autocomplete="off" name="{{ option }}">{{ option|title }}
+                            </label>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+
+                <button type="submit" class="btn">Apply</button>
+            </form>
+
+        </div>
+    </div>
+
+    {#    Accounts    #}
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            {% if data.accounts %}
+                <h3>Linked Accounts:</h3>
+                <ul class="list-group">
+                    {% for account in data.accounts %}
+                        <li class="list-group-item">
+                            "{{ account.name|title }}" - {{ account.type|title }} account with {{ account.provider }}
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                <h3>No Linked Accounts Available</h3>
+            {% endif %}
+        </div>
+    </div>
+
+    {#    Transactions    #}
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <h3>No Transaction History Available</h3>
+            {#            Dummy data has no transaction information - just placeholder for now.#}
+        </div>
+    </div>
+
+    {#    Holdings    #}
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <h3>No Holdings Information Available</h3>
+            {#            Dummy data has no holdings information - just placeholder for now.#}
+        </div>
+    </div>
+
+    {#    Statements    #}
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            {% if data.statements %}
+                <h3>Statements:</h3>
+                <ul class="list-group">
+                    {% for statement in data.statements %}
+                        <li class="list-group-item">
+                            {{ statement.payment }} {{ statement.paymentCurrency }} payment ({{ statement.date }})
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                <h3>No Statements Available</h3>
+            {% endif %}
+        </div>
+    </div>
+
+    {#    Net worth    #}
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            {% if data.networth %}
+                <h3>Net Worth History:</h3>
+                <ul class="list-group">
+                    {% for worth in data.networth %}
+                        <li class="list-group-item">
+                            {{ worth.networth }} {{ worth.currency }} on {{ worth.date }}
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                <h3>No Net Worth History Available</h3>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <a class="btn btn-danger" href="{% url 'logout' %}">Logout</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

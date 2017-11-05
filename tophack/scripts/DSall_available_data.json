@@ -1,0 +1,181 @@
+{
+  "account": [
+    {
+      "CONTAINER": "bank",
+      "providerAccountId": 12345,
+      "accountName": "SMB account",
+      "id": 801503,
+      "accountNumber": "xxxx4933",
+      "availableBalance": {
+        "amount": 4699,
+      },
+      "accountType": "SAVINGS",
+      "balance": {
+        "amount": 84699,
+        "currency": "USD"
+      },
+      "providerId": 16441,
+      "providerName": "Dag Site",
+      "overDraftLimit": {
+        "amount": 654,
+      },
+      },
+    
+    }
+  ],
+  "transactionSummary": [
+    {
+      "categoryType": "expense",
+      "creditTotal": {
+        "amount": 50,
+        "currency": "USD"
+      },
+      "debitTotal": {
+        "amount": 500,
+        "currency": "USD"
+      },
+      "categorySummary": [
+        {
+          "categoryId": 101,
+          "categoryName": "Office Expenses",
+          "debitTotal": {
+            "amount": 100,
+            "currency": "USD"
+          },
+          "details": [
+            {
+              "date": "2016-01-01",
+              "creditTotal": {
+                "amount": 100,
+                "currency": "USD"
+              }
+            }
+          ],
+          "links": {
+            "transactions": "/v1/transactions?accountId=12345&categoryType=EXPENSE&categoryId=101&fromDate=2016-01-01&toDate=2016-02-29"
+          }
+        },
+        {
+          "categoryId": 102,
+          "categoryName": "Personal/Family",
+          "creditTotal": {
+            "amount": 50,
+            "currency": "USD"
+          },
+          "debitTotal": {
+            "amount": 400,
+            "currency": "USD"
+          },
+          "details": [
+            {
+              "date": "2016-01-01",
+              "debitTotal": {
+                "amount": 300,
+                "currency": "USD"
+              }
+            },
+            {
+              "date": "2016-02-01",
+              "creditTotal": {
+                "amount": 50,
+                "currency": "USD"
+              },
+              "debitTotal": {
+                "amount": 100,
+                "currency": "USD"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+    {
+      "classificationType": "STOCK TYPE",
+      "classificationValue": "Slow Growth",
+      "value": {
+        "amount": 300.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "classificationType": "STOCK TYPE",
+      "classificationValue": "High Yield",
+      "value": {
+        "amount": 700.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "classificationType": "COUNTRY",
+      "classificationValue": "United States",
+      "value": {
+        "amount": 750.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "classificationType": "COUNTRY",
+      "classificationValue": "Germany",
+      "value": {
+        "amount": 250.0,
+        "currency": "USD"
+      }
+    }
+  ],
+    {
+      "date": "2016-02-01",
+      "asset": {
+        "amount": 123.34,
+        "currency": "USD"
+      },
+      "liability": {
+        "amount": 2000,
+        "currency": "USD"
+      },
+      "networth": {
+        "amount": -1876.66,
+        "currency": "USD"
+      }
+    }
+  ],
+  "historicalBalances": [
+    {
+      "accountId": 1111499281,
+      "date": "2016-02-01",
+      "asOfDate": "2016-02-01T16:48:53Z",
+      "balance": {
+        "amount": 123.34,
+        "currency": "USD"
+      },
+    },
+    {
+      "accountId": 1111499279,
+      "isAsset": false
+    {
+      "date": "2016-02-01",
+      "asOfDate": "2016-01-29T18:32:45Z",
+      "balance": {
+        "amount": 2000,
+        "currency": "USD"
+      },
+      "dataSourceType": "CF"
+    }
+  ]
+    {
+      "id": 676866,
+      "accountId": "801503",
+      "statementDate": "2015-09-01",
+      "billingPeriodStart": "2015-01-01",
+      "billingPeriodEnd": "2015-12-30",
+      "dueDate": "2016-09-30",
+      "lastPaymentAmount": {
+        "amount": 300,
+        "currency": "USD"
+      },
+      "lastPaymentDate": "2015-01-25",
+      "isLatest": false,
+      "lastUpdated": "2015-09-01T19:20:54Z"
+    }
+  ]
+}

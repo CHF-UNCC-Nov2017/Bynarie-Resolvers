@@ -1,0 +1,197 @@
+{
+  "account": [
+    {
+      "CONTAINER": "bank",
+      "providerAccountId": 12345,
+      "accountName": "SMB account",
+      "id": 801503,
+      "accountNumber": "xxxx4933",
+      "availableBalance": {
+        "amount": 4699,
+        "currency": "USD"
+      },
+      "accountType": "SAVINGS",
+      "createdDate": "2016-08-25T09:16:32Z",
+      "isAsset": true,
+      "isManual": false,
+      "balance": {
+        "amount": 84699,
+        "currency": "USD"
+      },
+      "providerId": 16441,
+      "providerName": "Dag Site",
+      "overDraftLimit": {
+        "amount": 654,
+        "currency": "INR"
+      },
+      "refreshinfo": {
+        "statusCode": 0,
+        "statusMessage": "OK",
+        "lastRefreshed": "2015-09-20T14:46:23Z",
+        "lastRefreshAttempt": "2015-09-20T14:46:23Z",
+        "nextRefreshScheduled": "2015-09-23T14:46:23Z"
+      },
+      "accountStatus": "ACTIVE"
+    }
+  ],
+  "transactionSummary": [
+    {
+      "categoryType": "expense",
+      "creditTotal": {
+        "amount": 50,
+        "currency": "USD"
+      },
+      "debitTotal": {
+        "amount": 500,
+        "currency": "USD"
+      },
+      "categorySummary": [
+        {
+          "categoryId": 101,
+          "categoryName": "Office Expenses",
+          "debitTotal": {
+            "amount": 100,
+            "currency": "USD"
+          },
+          "details": [
+            {
+              "date": "2016-01-01",
+              "creditTotal": {
+                "amount": 100,
+                "currency": "USD"
+              }
+            }
+          ],
+          "links": {
+            "transactions": "/v1/transactions?accountId=12345&categoryType=EXPENSE&categoryId=101&fromDate=2016-01-01&toDate=2016-02-29"
+          }
+        },
+        {
+          "categoryId": 102,
+          "categoryName": "Personal/Family",
+          "creditTotal": {
+            "amount": 50,
+            "currency": "USD"
+          },
+          "debitTotal": {
+            "amount": 400,
+            "currency": "USD"
+          },
+          "details": [
+            {
+              "date": "2016-01-01",
+              "debitTotal": {
+                "amount": 300,
+                "currency": "USD"
+              }
+            },
+            {
+              "date": "2016-02-01",
+              "creditTotal": {
+                "amount": 50,
+                "currency": "USD"
+              },
+              "debitTotal": {
+                "amount": 100,
+                "currency": "USD"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "holdingSummary": [
+    {
+      "classificationType": "STOCK TYPE",
+      "classificationValue": "Slow Growth",
+      "value": {
+        "amount": 300.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "classificationType": "STOCK TYPE",
+      "classificationValue": "High Yield",
+      "value": {
+        "amount": 700.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "classificationType": "COUNTRY",
+      "classificationValue": "United States",
+      "value": {
+        "amount": 750.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "classificationType": "COUNTRY",
+      "classificationValue": "Germany",
+      "value": {
+        "amount": 250.0,
+        "currency": "USD"
+      }
+    }
+  ],
+  "networth": [
+    {
+      "date": "2016-02-01",
+      "asset": {
+        "amount": 123.34,
+        "currency": "USD"
+      },
+      "liability": {
+        "amount": 2000,
+        "currency": "USD"
+      },
+      "networth": {
+        "amount": -1876.66,
+        "currency": "USD"
+      }
+    }
+  ],
+  "historicalBalances": [
+    {
+      "accountId": 1111499281,
+      "isAsset": true,
+      "date": "2016-02-01",
+      "asOfDate": "2016-02-01T16:48:53Z",
+      "balance": {
+        "amount": 123.34,
+        "currency": "USD"
+      },
+      "dataSourceType": "S"
+    },
+    {
+      "accountId": 1111499279,
+      "isAsset": false
+    {
+      "date": "2016-02-01",
+      "asOfDate": "2016-01-29T18:32:45Z",
+      "balance": {
+        "amount": 2000,
+        "currency": "USD"
+      },
+      "dataSourceType": "CF"
+    }
+  ],
+  "statement": [
+    {
+      "id": 676866,
+      "accountId": "801503",
+      "statementDate": "2015-09-01",
+      "billingPeriodStart": "2015-01-01",
+      "billingPeriodEnd": "2015-12-30",
+      "dueDate": "2016-09-30",
+      "lastPaymentAmount": {
+        "amount": 300,
+        "currency": "USD"
+      },
+      "lastPaymentDate": "2015-01-25",
+      "isLatest": false,
+      "lastUpdated": "2015-09-01T19:20:54Z"
+    }
+  ]
+}

@@ -1,0 +1,372 @@
+[
+  {
+    "CONTAINER": "creditCard",
+    "providerAccountId": 10468179,
+    "accountName": "CREDIT CARD",
+    "accountType": "OTHER",
+    "id": 10974807,
+    "balance": {
+      "amount": 1636.44,
+      "currency": "USD"
+    },
+    "accountNumber": "************8614",
+    "availableBalance": "",
+    "availableCash": {
+      "amount": 600,
+      "currency": "USD"
+    },
+    "availableCredit": {
+      "amount": 1363,
+      "currency": "USD"
+    },
+    "totalCreditLine": {
+      "amount": 3000,
+      "currency": "USD"
+    },
+    "providerId": "16441",
+    "providerName": "Dag Site",
+    "overDraftLimit": ""
+  },
+  {
+    "CONTAINER": "bank",
+    "providerAccountId": 10468179,
+    "accountName": "TESTDATA1",
+    "accountType": "SAVINGS",
+    "id": 10974806,
+    "balance": {
+      "amount": 9044.78,
+      "currency": "USD"
+    },
+    "accountNumber": "503-5623xxx",
+    "availableBalance": {
+      "amount": 65454.78,
+      "currency": "USD"
+    },
+    "availableCash": "",
+    "availableCredit": "",
+    "totalCreditLine": "",
+    "providerId": "16441",
+    "providerName": "Dag Site",
+    "overDraftLimit": ""
+  },
+  {
+    "CONTAINER": "bank",
+    "providerAccountId": 10468179,
+    "accountName": "TESTDATA",
+    "accountType": "CHECKING",
+    "id": 10974805,
+    "balance": {
+      "amount": 44.78,
+      "currency": "USD"
+    },
+    "accountNumber": "503-1123xxx",
+    "availableBalance": {
+      "amount": 54.78,
+      "currency": "USD"
+    },
+    "availableCash": "",
+    "availableCredit": "",
+    "totalCreditLine": "",
+    "providerId": "16441",
+    "providerName": "Dag Site",
+    "overDraftLimit": ""
+  },
+  {
+    "CONTAINER": "creditCard",
+    "providerAccountId": 10468180,
+    "accountName": "CREDIT CARD",
+    "accountType": "OTHER",
+    "id": 10974790,
+    "balance": {
+      "amount": 1636.44,
+      "currency": "USD"
+    },
+    "accountNumber": "************8614",
+    "availableBalance": "",
+    "availableCash": {
+      "amount": 600,
+      "currency": "USD"
+    },
+    "availableCredit": {
+      "amount": 1363,
+      "currency": "USD"
+    },
+    "totalCreditLine": {
+      "amount": 3000,
+      "currency": "USD"
+    },
+    "providerId": "16441",
+    "providerName": "Dag Site",
+    "overDraftLimit": ""
+  },
+  {
+    "CONTAINER": "bank",
+    "providerAccountId": 10468180,
+    "accountName": "TESTDATA1",
+    "accountType": "SAVINGS",
+    "id": 10974789,
+    "balance": {
+      "amount": 9044.78,
+      "currency": "USD"
+    },
+    "accountNumber": "503-5623xxx",
+    "availableBalance": {
+      "amount": 65454.78,
+      "currency": "USD"
+    },
+    "availableCash": "",
+    "availableCredit": "",
+    "totalCreditLine": "",
+    "providerId": "16441",
+    "providerName": "Dag Site",
+    "overDraftLimit": ""
+  },
+  {
+    "CONTAINER": "bank",
+    "providerAccountId": 10468180,
+    "accountName": "TESTDATA",
+    "accountType": "CHECKING",
+    "id": 10974788,
+    "balance": {
+      "amount": 44.78,
+      "currency": "USD"
+    },
+    "accountNumber": "503-1123xxx",
+    "availableBalance": {
+      "amount": 54.78,
+      "currency": "USD"
+    },
+    "availableCash": "",
+    "availableCredit": "",
+    "totalCreditLine": "",
+    "providerId": "16441",
+    "providerName": "Dag Site",
+    "overDraftLimit": ""
+  },
+  {
+    "CONTAINER": "bank",
+    "providerAccountId": 10468181,
+    "accountName": "TESTDATA1",
+    "accountType": "SAVINGS",
+    "id": 10974792,
+    "balance": {
+      "amount": 9044.78,
+      "currency": "USD"
+    },
+    "accountNumber": "503-5623xxx",
+    "availableBalance": {
+      "amount": 65454.78,
+      "currency": "USD"
+    },
+    "availableCash": "",
+    "availableCredit": "",
+    "totalCreditLine": "",
+    "providerId": "16441",
+    "providerName": "Dag Site",
+    "overDraftLimit": ""
+  },
+  {
+    "CONTAINER": "bank",
+    "providerAccountId": 10468181,
+    "accountName": "TESTDATA",
+    "accountType": "CHECKING",
+    "id": 10974791,
+    "balance": {
+      "amount": 44.78,
+      "currency": "USD"
+    },
+    "accountNumber": "503-1123xxx",
+    "availableBalance": {
+      "amount": 54.78,
+      "currency": "USD"
+    },
+    "availableCash": "",
+    "availableCredit": "",
+    "totalCreditLine": "",
+    "providerId": "16441",
+    "providerName": "Dag Site",
+    "overDraftLimit": ""
+  },
+  {
+    "CONTAINER": "creditCard",
+    "providerAccountId": 10468181,
+    "accountName": "CREDIT CARD",
+    "accountType": "OTHER",
+    "id": 10974787,
+    "balance": {
+      "amount": 1636.44,
+      "currency": "USD"
+    },
+    "accountNumber": "************8614",
+    "availableBalance": "",
+    "availableCash": "",
+    "availableCredit": {
+      "amount": 1363,
+      "currency": "USD"
+    },
+    "totalCreditLine": "",
+    "providerId": "16441",
+    "providerName": "Dag Site",
+    "overDraftLimit": ""
+  },
+  {
+    "CONTAINER": "creditCard",
+    "providerAccountId": 10468182,
+    "accountName": "CREDIT CARD",
+    "accountType": "OTHER",
+    "id": 10974786,
+    "balance": {
+      "amount": 1636.44,
+      "currency": "USD"
+    },
+    "accountNumber": "************8614",
+    "availableBalance": "",
+    "availableCash": {
+      "amount": 600,
+      "currency": "USD"
+    },
+    "availableCredit": {
+      "amount": 1363,
+      "currency": "USD"
+    },
+    "totalCreditLine": {
+      "amount": 3000,
+      "currency": "USD"
+    },
+    "providerId": "16441",
+    "providerName": "Dag Site",
+    "overDraftLimit": ""
+  },
+  {
+    "CONTAINER": "bank",
+    "providerAccountId": 10468182,
+    "accountName": "TESTDATA1",
+    "accountType": "SAVINGS",
+    "id": 10974785,
+    "balance": {
+      "amount": 9044.78,
+      "currency": "USD"
+    },
+    "accountNumber": "503-5623xxx",
+    "availableBalance": {
+      "amount": 65454.78,
+      "currency": "USD"
+    },
+    "availableCash": "",
+    "availableCredit": "",
+    "totalCreditLine": "",
+    "providerId": "16441",
+    "providerName": "Dag Site",
+    "overDraftLimit": ""
+  },
+  {
+    "CONTAINER": "bank",
+    "providerAccountId": 10468182,
+    "accountName": "TESTDATA",
+    "accountType": "CHECKING",
+    "id": 10974784,
+    "balance": {
+      "amount": 44.78,
+      "currency": "USD"
+    },
+    "accountNumber": "503-1123xxx",
+    "availableBalance": {
+      "amount": 54.78,
+      "currency": "USD"
+    },
+    "availableCash": "",
+    "availableCredit": "",
+    "totalCreditLine": "",
+    "providerId": "16441",
+    "providerName": "Dag Site",
+    "overDraftLimit": ""
+  },
+  {
+    "CONTAINER": "bank",
+    "providerAccountId": 10468183,
+    "accountName": "TESTDATA1",
+    "accountType": "SAVINGS",
+    "id": 10974811,
+    "balance": {
+      "amount": 9044.78,
+      "currency": "USD"
+    },
+    "accountNumber": "503-5623xxx",
+    "availableBalance": {
+      "amount": 65454.78,
+      "currency": "USD"
+    },
+    "availableCash": "",
+    "availableCredit": "",
+    "totalCreditLine": "",
+    "providerId": "16441",
+    "providerName": "Dag Site",
+    "overDraftLimit": ""
+  },
+  {
+    "CONTAINER": "bank",
+    "providerAccountId": 10468183,
+    "accountName": "TESTDATA1",
+    "accountType": "SAVINGS",
+    "id": 10974810,
+    "balance": {
+      "amount": 9044.78,
+      "currency": "USD"
+    },
+    "accountNumber": "503-5623xxx",
+    "availableBalance": {
+      "amount": 65454.78,
+      "currency": "USD"
+    },
+    "availableCash": "",
+    "availableCredit": "",
+    "totalCreditLine": "",
+    "providerId": "16441",
+    "providerName": "Dag Site",
+    "overDraftLimit": ""
+  },
+  {
+    "CONTAINER": "creditCard",
+    "providerAccountId": 10468183,
+    "accountName": "CREDIT CARD",
+    "accountType": "OTHER",
+    "id": 10974809,
+    "balance": {
+      "amount": 1636.44,
+      "currency": "USD"
+    },
+    "accountNumber": "************8614",
+    "availableBalance": "",
+    "availableCash": "",
+    "availableCredit": {
+      "amount": 1363,
+      "currency": "USD"
+    },
+    "totalCreditLine": "",
+    "providerId": "16441",
+    "providerName": "Dag Site",
+    "overDraftLimit": ""
+  },
+  {
+    "CONTAINER": "bank",
+    "providerAccountId": 10468183,
+    "accountName": "TESTDATA",
+    "accountType": "CHECKING",
+    "id": 10974808,
+    "balance": {
+      "amount": 44.78,
+      "currency": "USD"
+    },
+    "accountNumber": "503-1123xxx",
+    "availableBalance": {
+      "amount": 54.78,
+      "currency": "USD"
+    },
+    "availableCash": "",
+    "availableCredit": "",
+    "totalCreditLine": "",
+    "providerId": "16441",
+    "providerName": "Dag Site",
+    "overDraftLimit": ""
+  }
+]
